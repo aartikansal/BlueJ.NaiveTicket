@@ -42,21 +42,23 @@ Work through all these exercises. You edit this file with your answers for these
 
 ### Exercise 2.6
 * Write out what you think the outer wrappers of the `Student` and `LabClass` classes might look like – do not worry about the inner part.
-public class Student
-{
 
-}
-public class LabClass
-{
+	public class Student
+	{
 
-}
+	}
+	public class LabClass
+	{
+
+	}
+
 ### Exercise 2.7
 Does it matter whether we write<br>
 `public class TicketMachine`<br>
-// no syntax error
+// No syntax error
 or<br>
 `class public TicketMachine`<br>
-// found errors.
+// Found errors.
 in the outer wrapper of a class?
 
 
@@ -66,7 +68,7 @@ in the outer wrapper of a class?
 	* What error message do you get when you now press the compile button?
 	// Illegal start of expression.<identifier> expected.
 	* Do you think this message clearly explains what is wrong?
-	// yes, it does.
+	// Yes, it does.
 
 ### Exercise 2.8
 * Check whether or not it is possible to leave out the word `public` from the outer wrapper of the `TicketMachine` class.
@@ -92,10 +94,9 @@ in the outer wrapper of a class?
 		incrementTicketNumber()
 		printTicket()
 
-
 ### Exercise 2.10
 * Do you notice any features of the constructor that make it significantly different from the other methods of the class?
-// yes. Name of the constructor is same as the name of the class and Construtor does not return any value.
+// Yes. Name of the constructor is same as the name of the class and construtor does not return any value.
 
 ### Exercise 2.11
 * What do you think is the type of each of the following fields?
